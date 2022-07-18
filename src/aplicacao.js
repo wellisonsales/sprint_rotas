@@ -1,4 +1,4 @@
-import express from "express";
+import express, { Router } from "express";
 import controllers from ".controller/controller.js"
 
 const aplicacao = express()
