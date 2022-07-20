@@ -1,9 +1,3 @@
-const controller = (aplicacao)=>{
-    aplicacao.post('/create', (req,rest) =>{
-        const body = (req, res) =>{
-
-        }
-        
-}
-
-export default controller
+const controller = (app, data)=>{
+    app.post('/create', (req, res) =>{
+        const body = req.body
