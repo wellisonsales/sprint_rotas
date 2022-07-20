@@ -2,8 +2,10 @@
 
 Este código é um projeto de **resolução** para a seguinte sprint:
 
-STATUS: Em desenvolvimento 📝
 
+> **Status de projeto:** Em desenvolvimento  📝
+
+## Desafio:
 
 ➔ Vamos criar duas rotas em nossa aplicação, uma delas vai receber uma dica e
 gravar essa dica no banco de dados e a outra rota deve devolver de forma
