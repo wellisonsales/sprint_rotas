@@ -7,3 +7,7 @@ const port = 3000
 aplicacao.use(express.json())
 
 controllers(aplicacao, data)
+
+aplicacao.listen(port, ()) =>{
+    console.log(`http://localhost:${port}`)
+}
