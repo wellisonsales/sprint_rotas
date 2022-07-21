@@ -1,22 +1,27 @@
 {
-  "dependencies": {
-    "nodemon": "^2.0.19",
-    "type": "module"
-  },
   "name": "rotas",
-  "description": "Este código é um projeto de **resolução** para a seguinte sprint:",
   "version": "1.0.0",
-  "main": "index.js",
-  "devDependencies": {},
+  "description": "Este código é um projeto de **resolução** para a seguinte sprint:",
+  "main": "aplicacao.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/aplicacao.js",
+    "dev": "nodemon ./src/aplicacao.js"
+  },
+  "author": "Wellison",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "nodemon": "^2.0.19"
+  },
+  "type": "module",
+  "dependencies": {
+    "express": "^4.18.1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wellisonsales/sprint_rotas.git"
   },
-  "author": "Wellison Sales",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/wellisonsales/sprint_rotas/issues"
   },

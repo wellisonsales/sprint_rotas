@@ -1,4 +1,5 @@
 const data = {
-    tips: [""]
+    tips: ["informação 1", "informação dois",]
 }
-export defalult data
+
+export default data

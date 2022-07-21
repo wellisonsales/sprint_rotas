@@ -1,13 +1,14 @@
-import express, from "express";
-import controllers from ".controller/controller.js"
+import express from "express";
+import controller from "./controller/controllers.js";
+import data from "./database/data.js";
 
 const aplicacao = express()
-const port = 3000
+const port = 4000
 
 aplicacao.use(express.json())
 
-controllers(aplicacao, data)
+controller(aplicacao, data)
 
-aplicacao.listen(port, ()) =>{
-    console.log(`http://localhost:${port}`)
-}
+aplicacao.listen(port, ()=>{
+    console.log(`http://localhost:${port}`);
+})

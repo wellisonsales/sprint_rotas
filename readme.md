@@ -1,9 +1,7 @@
 # Sprint | Rotas - Módulo 4
+> **Status de projeto:** Em desenvolvimento  📝
 
 Este código é um projeto de **resolução** para a seguinte sprint:
-
-
-> **Status de projeto:** Em desenvolvimento  📝
 
 ## Desafio:
 
@@ -19,3 +17,19 @@ aleatória uma das dicas que estão armazenadas no banco. Vamos usar a rota
 - Padrão MVC
 - importação e exportação de arquivos.
 - CRUD 
+
+## 📁 Acessando o projeto:
+
+
+➔ Iniciando o framework:
+
+```http
+  node ./src/aplicacao.js
+```
+
+➔ utilizando um software cliente API REST, acesse o link do servidor local gerado, que será: 
+
+```http
+  http://localhost:4000
+```
+
