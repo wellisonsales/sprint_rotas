@@ -13,7 +13,7 @@ aleatória uma das dicas que estão armazenadas no banco. Vamos usar a rota
 ## Foram utilizados neste código
 
 - Biblioteca express
-- Banco de dados mockado (criado dentro da pasta "data" do código)
+- Banco de dados mockado (criado dentro da pasta "database" do código)
 - Padrão MVC
 - importação e exportação de arquivos.
 - CRUD 
