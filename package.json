@@ -2,5 +2,23 @@
   "dependencies": {
     "nodemon": "^2.0.19",
     "type": "module"
-  }
+  },
+  "name": "rotas",
+  "description": "Este código é um projeto de **resolução** para a seguinte sprint:",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wellisonsales/sprint_rotas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wellisonsales/sprint_rotas/issues"
+  },
+  "homepage": "https://github.com/wellisonsales/sprint_rotas#readme"
 }
