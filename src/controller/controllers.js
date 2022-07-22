@@ -1,29 +1,17 @@
 const controller = (aplicacao, data)=>{
     aplicacao.post('/create', (req, res) =>{
         const body = req.body
-        try {
-            if(body.tip.length != 0){
-                data.tips.push(body.tips)
-                res.json({ 
-                    msg: "Parabéns! sua dica foi inserida no banco de dados", 
-                    error: false
-                })
-            }else{
-                throw new Error("Verifique se os campos foram digitados corretamente")
-            }
-        } catch (error) {
-            res.json({ 
-                msg: error.message,
-                error: true
-            })
-        }
-        
-        
+        db.tips.push(body.tips)
+        res.json(body)
+        console.log(body + " informação enviada ao banco.")
     })
-    aplicacao.get('/tips', (req, res)=>{
+    
+        app.get('/dicas', (req, res) => {
         res.json({
-            })
+            "dicas": dados.dicas[parseInt(Math.random() * dados.dicas.length)]
+            console.log("informação recolhida")
+        })
     })
 }
-
+        
 export default controller
